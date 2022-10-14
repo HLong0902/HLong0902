@@ -1,0 +1,103 @@
+package quanlh;
+
+import quanlh.model.Inventory;
+import quanlh.model.Thing;
+
+public class Application {
+    public static Inventory inventory;
+    public Thing lookUp(Thing thing){
+
+
+        return result;
+    }
+}
+package quanlh.model;
+
+import java.sql.Timestamp;
+
+public class BookOnTape extends Thing{
+    private String author;
+    private String voice;
+    private Timestamp length;
+    private String topic;
+    private String content;
+}
+package quanlh.model;
+
+public class Const {
+    public static class Voice{
+        public static final String Male = "Male";
+        public static final String Female = "Female";
+    }
+}
+package quanlh.model;
+
+public class Furniture extends Thing{
+    private String material;
+    private String color;
+    private String suitableRoom;
+}
+package quanlh.model;
+
+import java.util.Map;
+import java.util.Set;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class Inventory {
+    private Set<Video> videos;
+    private Map<User, Set<Video>> usersVideo;
+    private Set<BookOnTape> bookOnTapes;
+    private Map<User, Set<BookOnTape>> usersBook;
+    private Set<Furniture> furnitures;
+    private Map<User, Set<Furniture>> usersFurniture;
+}
+
+package quanlh.model;
+
+import java.sql.Date;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public abstract class Thing {
+    private Long id;
+    private String name;
+    private Integer status;
+    private User user;
+    private Long serial;
+    private Double price;
+    private Date beginDate;
+    private Date endDate;
+    private String description;
+}
+
+package quanlh.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class User {
+    private Long idUser;
+    private String fullName;
+    private String address;
+    private Integer age;
+ }
