@@ -4,10 +4,15 @@ Nguyễn Hoàng Long – Chuyên viên cao cấp phát triển ứng dụng
 Với hơn 5 năm kinh nghiệm trong ngành công nghệ thông tin, tôi tự tin đảm nhận và hoàn thiện mọi dự án từ thiết kế, phát triển đến triển khai hệ thống. Tôi đã dẫn dắt và thực hiện thành công hơn 20 dự án quy mô từ nhỏ đến trung bình, và luôn đặt chất lượng lẫn sự sáng tạo lên hàng đầu.
 
 Lĩnh vực chuyên môn:
+
 • Phát triển web & mobile: Sử dụng thành thạo các công nghệ hiện đại như React, Angular, VueJs, Node.js, Java …
+
 • Kiến trúc hệ thống & DevOps: Triển khai và tối ưu hóa hạ tầng với Docker, Kubernetes, AWS và các nền tảng điện toán đám mây khác.
+
 • Trí tuệ nhân tạo & Machine Learning: Xây dựng các giải pháp AI tiên tiến với Python, TensorFlow và PyTorch.
+
 • Bảo mật & kiểm thử: Đảm bảo tính toàn vẹn và an toàn cho mọi dự án với quy trình kiểm thử tự động và các biện pháp bảo mật hàng đầu.
+
 
 Luôn chủ động tiếp cận giải pháp tối ưu, tôi cam kết đem lại hiệu quả vượt trội và hỗ trợ khách hàng phát triển bền vững trên hành trình số hóa. Hãy cùng tôi biến ý tưởng của bạn thành hiện thực!
 
